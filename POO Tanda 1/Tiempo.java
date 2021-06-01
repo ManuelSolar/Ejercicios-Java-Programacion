@@ -102,7 +102,7 @@ public class Tiempo {
     
     this.horas = s / 3600;
     this.minutos = (s % 3600) / 60; // el resto nos da los segundos sobrantes, al dividirlo entre 60 tenemos los minutos
-    this.segundos = (s % 3600) %60; // el resto de la operaci�n anterior
+    this.segundos = (s % 3600) %60; // el resto de la operación anterior
   }
 
   @Override
